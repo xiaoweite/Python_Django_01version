@@ -8,8 +8,8 @@
 <body>
 <h1>Django网站</h1>
 <ul>
-    {% for aa in list %}
-    <li>{{aa}}</li>
+    {% for book in list %}
+    <li ><a href="{{book.id}}">{{book}}</a></li>
     {% endfor %}
 </ul>
 </body>
